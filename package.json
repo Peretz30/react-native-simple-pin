@@ -1,0 +1,36 @@
+{
+  "name": "react-native-simple-pin",
+  "version": "0.0.1",
+  "description": "Super simple and minimalistic PIN Code component",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Peretz30/react-native-simple-pin.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "pin",
+    "code",
+    "pincode",
+    "react",
+    "native",
+    "react-native-pincode",
+    "pin",
+    "minimalistic",
+    "simple"
+  ],
+  "author": "Nikita Perevyazkin (Peretz30)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Peretz30/react-native-simple-pin/issues"
+  },
+  "homepage": "https://github.com/Peretz30/react-native-simple-pin#readme",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}
