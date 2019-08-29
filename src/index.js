@@ -30,7 +30,7 @@ class PinCodeContainer extends React.PureComponent {
             } else {
                 if (this.state.enteredPin.length > 0) {
                     if (this.state.enteredPin.join('') === updatedPin.join('')) {
-                        this.props.onSuccess();
+                        this.props.onSuccess(updatedPin);
                     } else {
                         this.setState({ pin: [], enteredPin: [], title: this.props.title ? this.props.title : 'Enter your PIN'});
                         this.props.onFailure();

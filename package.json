@@ -1,6 +1,6 @@
 {
   "name": "react-native-simple-pin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Super simple and minimalistic PIN Code component",
   "main": "src/index.js",
   "scripts": {

@@ -26,9 +26,9 @@ const PinCodeScreenComponent = ({}) => (
         pin={4}
         title="Set my very secret PIN"
         repeatTitle="Repeat your PIN"
-        onSuccess={() => Alert.alert(
+        onSuccess={(pin) => Alert.alert(
             'Success',
-            'Hell yeah!',
+            'Hell yeah! Your PIN is ' + pin.join(''),
             [
                 { text: 'OK' },
             ]
