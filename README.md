@@ -16,7 +16,7 @@ npm install --save react-native-simple-pin
 
 ### Set PIN
 To set PIN you need to pass into `pin` prop pin code length
-```
+```java script
 import React from 'react';
 import SimplePin from 'react-native-simple-pin'
 import { Alert } from 'react-native'
@@ -50,7 +50,7 @@ export default PinCodeScreenComponent
 ```
 ### Check PIN
 To check PIN you need to pass into `pin` prop array with numbers of your PIN
-```
+```java script
 import React from 'react';
 import SimplePin from 'react-native-simple-pin'
 import { Alert } from 'react-native'
